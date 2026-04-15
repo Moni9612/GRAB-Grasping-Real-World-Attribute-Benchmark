@@ -7,4 +7,4 @@ GRAB is a comprehensive benchmark designed to evaluate grasping-in-clutter perfo
 
 ![Methodology](https://github.com/user-attachments/assets/952ebc4e-c944-45aa-98cb-6a4d267287da)
 
-Stay tuned — the GRAB stack will be available soon.
+Stay tuned - the GRAB stack will be available soon.
