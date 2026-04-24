@@ -35,7 +35,8 @@ Install MoveIt 2 version: 2.5.9 (Humble compatible)
   - Follow **Step 2: Install the latest Intel® RealSense™ SDK 2.0** (use Option 2)
   - Then complete **Step 3: Install the ROS Wrapper for Intel® RealSense™ Cameras**
 
-### Set up parallel grasping path.
+
+## Parallel grasping path.
 
 - Install **AnyGrasp SDK** inside a Docker container, as it supports multiple CUDA and Python versions:  
   [AnyGrasp SDK](https://github.com/graspnet/anygrasp_sdk)
