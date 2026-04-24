@@ -45,16 +45,10 @@ Install MoveIt 2 version: 2.5.9 (Humble compatible)
   ```bash
   git clone --recurse-submodules https://github.com/Moni9612/GRAB-Grasping-Real-World-Attribute-Benchmark.git
 
+## Suction Grasping Pipeline.
+
 - Install **SuctionNet**, including the following components:  
   - [SuctionNetAPI](https://github.com/graspnet/suctionnetAPI)  
   - [suctionnet-baseline](https://github.com/graspnet/suctionnet-baseline)
-
-
-### Clone Required Repositories
-
-Clone the following repositories into your home directory:
-
-- [anygrasp_benchmark](https://github.com/Moni9612/anygrasp_benchmark_ws.git)
-
 
 Stay tuned - the GRAB stack is under updates.
