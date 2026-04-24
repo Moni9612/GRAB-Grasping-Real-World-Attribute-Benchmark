@@ -7,7 +7,7 @@ GRAB is a comprehensive benchmark designed to evaluate grasping-in-clutter perfo
 
 ![Methodology](https://github.com/user-attachments/assets/952ebc4e-c944-45aa-98cb-6a4d267287da)
 
-Stay tuned - the GRAB stack will be available soon.
+This repository includes instructions to setup two grasping benchmark pipelines: parallel grasping path for the rigid and adaptive force controlled parallel grippers and suction grasping path.
 
 ## Requirements
 
@@ -20,6 +20,20 @@ Stay tuned - the GRAB stack will be available soon.
 - MoveIt 2 version: 2.5.9 (Humble compatible)
 
 ## Installation
+
+### Set up UR10 Robot Arm.
+
+
+### Set up UR10 Robot Arm.
+
+
+
+### Set up parallel grasping path.
+
+
+
+### Set up suction grasping path.
+
 
 1. Install below 6D grasp pose detection algorithms:
 
@@ -39,4 +53,6 @@ Stay tuned - the GRAB stack will be available soon.
     - anygrasp_benchmark
     - Suctionnet_move_robot
     - relay_contol_ws
-      
+
+
+Stay tuned - the GRAB stack is under updates.
