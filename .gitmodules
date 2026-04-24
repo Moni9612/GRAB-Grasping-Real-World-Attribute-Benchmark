@@ -1,3 +1,6 @@
 [submodule "anygrasp_benchmark_ws"]
 	path = anygrasp_benchmark_ws
 	url = https://github.com/Moni9612/anygrasp_benchmark_ws.git
+[submodule "suctionnet_benchmark_ws"]
+	path = suctionnet_benchmark_ws
+	url = https://github.com/Moni9612/suctionnet_benchmark_ws.git
