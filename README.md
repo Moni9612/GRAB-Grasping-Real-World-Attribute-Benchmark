@@ -7,52 +7,51 @@ GRAB is a comprehensive benchmark designed to evaluate grasping-in-clutter perfo
 
 ![Methodology](https://github.com/user-attachments/assets/952ebc4e-c944-45aa-98cb-6a4d267287da)
 
-This repository includes instructions to setup two grasping benchmark pipelines: parallel grasping path for the rigid and adaptive force controlled parallel grippers and suction grasping path.
+This repository provides setup instructions for two grasping benchmark pipelines: a parallel grasping pipeline for rigid and adaptive force-controlled parallel grippers, and a suction-based grasping pipeline.
 
 ## Requirements
 
 - Ubuntu 22.04
 - ROS 2 Humble
-- Universal Robots ROS 2 Driver: [GitHub Repo](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/tree/humble)
 - Python 3.10.12
 - CUDA toolkit version 12.1
 - PyTorch 2.1.0
-- MoveIt 2 version: 2.5.9 (Humble compatible)
 
 ## Installation
 
 ### Set up UR10 Robot Arm.
 
+Install Universal Robots ROS 2 Driver: [GitHub Repo](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/tree/humble)
 
-### Set up UR10 Robot Arm.
+### Set up Moveit2
 
+Install MoveIt 2 version: 2.5.9 (Humble compatible)
 
+### Set up RealSense Camera
+
+- Refer to the official [RealSense ROS2 Installation Guide](https://github.com/realsenseai/realsense-ros/blob/ros2-development/README.md#installation-on-ubuntu)
+
+  - Navigate to **Installation on Ubuntu**
+  - Follow **Step 2: Install the latest Intel® RealSense™ SDK 2.0** (use Option 2)
+  - Then complete **Step 3: Install the ROS Wrapper for Intel® RealSense™ Cameras**
 
 ### Set up parallel grasping path.
 
-
+- Install **AnyGrasp SDK** inside a Docker container, as it supports multiple CUDA and Python versions:  
+  [AnyGrasp SDK](https://github.com/graspnet/anygrasp_sdk)
 
 ### Set up suction grasping path.
 
+- Install **SuctionNet**, including the following components:  
+  - [SuctionNetAPI](https://github.com/graspnet/suctionnetAPI)  
+  - [suctionnet-baseline](https://github.com/graspnet/suctionnet-baseline)
 
-1. Install below 6D grasp pose detection algorithms:
 
-    - Install Anygrasp_sdk inside a docker container since it supports different CUDA and python versions: [Anygrasp_sdk](https://github.com/graspnet/anygrasp_sdk)
+### Clone Required Repositories
 
-    - Install Suctionnet ([SuctionNetAPI](https://github.com/graspnet/suctionnetAPI) and [suctionnet-baseline](https://github.com/graspnet/suctionnet-baseline))
+Clone the following repositories into your home directory:
 
-2. Install Intel® RealSense™ SDK 2.0 since we are using a D415 realsense camera
-
-    - Go to this link [Realsense SDK](https://github.com/realsenseai/realsense-ros/blob/ros2-development/README.md#installation-on-ubuntu)
-    - Then go to installation on ubuntu.
-    - Go to Step 2: Install latest Intel® RealSense™ SDK 2.0  and follow option 2
-    - Then Step 3: Install ROS Wrapper for Intel® RealSense™ cameras Step
-
-3. Then clone below github repositories into your home location:
-
-    - anygrasp_benchmark
-    - Suctionnet_move_robot
-    - relay_contol_ws
+- [anygrasp_benchmark](https://github.com/Moni9612/anygrasp_benchmark_ws.git)
 
 
 Stay tuned - the GRAB stack is under updates.
