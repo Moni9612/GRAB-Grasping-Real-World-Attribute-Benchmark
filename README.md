@@ -36,12 +36,14 @@ Install MoveIt 2 version: 2.5.9 (Humble compatible)
   - Then complete **Step 3: Install the ROS Wrapper for Intel® RealSense™ Cameras**
 
 
-## Parallel grasping path.
+## Parallel Grasping Pipeline.
 
 - Install **AnyGrasp SDK** inside a Docker container, as it supports multiple CUDA and Python versions:  
   [AnyGrasp SDK](https://github.com/graspnet/anygrasp_sdk)
 
-### Set up suction grasping path.
+- Clone the `anygrasp_benchmark_ws` repository using the following command:
+  ```bash
+  git clone --recurse-submodules https://github.com/Moni9612/GRAB-Grasping-Real-World-Attribute-Benchmark.git
 
 - Install **SuctionNet**, including the following components:  
   - [SuctionNetAPI](https://github.com/graspnet/suctionnetAPI)  
