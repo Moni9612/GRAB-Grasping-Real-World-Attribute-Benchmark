@@ -41,8 +41,6 @@ Install MoveIt 2 version: 2.5.9 (Humble compatible)
 - Install **AnyGrasp SDK** inside a Docker container, as it supports multiple CUDA and Python versions:  
   [AnyGrasp SDK](https://github.com/graspnet/anygrasp_sdk)
 
-- Please replace the provided modified **demo.py** file inside /anygrasp_sdk/anygrasp_sdk/grasp_detection
-
 - Clone the `anygrasp_benchmark_ws` repository using the following command:
   ```bash
   git clone https://github.com/Moni9612/GRAB-Grasping-Real-World-Attribute-Benchmark.git
